@@ -10,7 +10,7 @@ const authRoutes = require('./routes/AuthRoutes')
  * APP
  */
 
-var whitelist = ['http://localhost:5173']
+var whitelist = ['https://awaas-kalpana.vercel.app/']
 var corsOptions = {
     credentials: true,
     origin: function (origin, callback) {

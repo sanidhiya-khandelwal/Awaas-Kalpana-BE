@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     credentials: true,
-    origin: ['https://awaas-kalpana.vercel.app/']
+    origin: ['https://awaas-kalpana.vercel.app']
 }));
 
 
